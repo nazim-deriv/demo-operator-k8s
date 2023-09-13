@@ -1,0 +1,12 @@
+apiVersion: test-operator.deriv.services/v1alpha1
+kind: ResourceOperator
+metadata:
+  labels:
+    app.kubernetes.io/name: resourceoperator
+    app.kubernetes.io/instance: resourceoperator-sample
+    app.kubernetes.io/part-of: demo-operator-k8s
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: demo-operator-k8s
+  name: resourceoperator-sample
+spec:
+  # TODO(user): Add fields here
